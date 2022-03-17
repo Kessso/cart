@@ -99,9 +99,17 @@ function updateCartTotal() {
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    document.getElementsByClassName('cart-tog tal-price')[0].innerText = '$' + total
 }
 
 function changeColor(){
     document.querySelector('.heart')
 }
+
+const img = document.querySelectorAll('.bg-img')
+
+img.forEach(img=>{
+    img.addEventListener('click',()=>{
+        img.classList.toggle('red')
+    })
+})

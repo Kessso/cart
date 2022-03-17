@@ -5,7 +5,18 @@
     font-weight: normal;
     font-style: normal;
 }
-
+.bg-img{
+    background: url('./drawn-hearts-clear-background-white-heart-vector-115632320145kyoupgf7r.png' ) no-repeat center center/cover;
+    width: 35px;
+    height: 35px;
+    background-size: 25px;
+}
+.red{
+    background: url('./download.jpg' ) no-repeat center center/cover;
+    width: 35px;
+    height: 35px;
+    background-size: 25px;
+}
 * {
     box-sizing: border-box;
     font-family: Raleway;
